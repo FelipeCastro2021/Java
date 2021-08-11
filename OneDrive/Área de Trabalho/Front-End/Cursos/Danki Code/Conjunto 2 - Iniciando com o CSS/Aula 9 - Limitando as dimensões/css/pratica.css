@@ -11,3 +11,19 @@
 html, body {
     height: 100%;
 }
+
+.header {
+    height: 9%;
+    min-height: 20%; /* sobreescreve o max-height */
+    max-height: 80px;
+    width: 100%;
+    background-color: brown;
+}
+
+.article {
+    height: 5%;
+    max-height: 15px;
+    width: 8%;
+    min-width: 500px;
+    background-color: blue;
+}
