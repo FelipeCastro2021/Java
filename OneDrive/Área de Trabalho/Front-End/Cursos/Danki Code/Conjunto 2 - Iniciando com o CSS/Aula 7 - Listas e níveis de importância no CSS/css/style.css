@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav {
+    margin-left: 20px;
+    background-color: rgba(255, 0, 0, 0.694);
+    padding: 5px;
+}
+
+.lista, .lista2 {
+    list-style-position: outside; /* Mantém as marcações de lista para dentro do bloco */
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.lista li, .lista2 li {
+    font-size: 14px;
+    color: #d50000;
+    margin: 15px 0;
+}
+
+#item3 {
+    color: white;
+}
+
+.lista li#item3, .lista2 li#item3 { /* Mais específico que o seletor acima */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.lista_ordenada {
+    list-style-position: inside;
+    list-style-type: georgian;
+    margin: 0 5px;
+}
+
+.lista_ordenada li {
+    font-size: 14px;
+    color: #d50000;
+    margin: 15px 0;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+#secao {
+    border: 5px solid red;
+}
+
+.um {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.um > .dois {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.um > .tres {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.um > .tres > .quatro {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}

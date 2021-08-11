@@ -1,0 +1,32 @@
+* { /* Todos os elementos existentes no HTML */ /* Resetar o documento */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu { /* width menor que o tamanho da tela e coloque para centralizar */
+    width: 900px; /* importante para não quebrar o layout */
+    margin: 30px auto;
+    /* padding: 40px 90px; */
+    text-align: center; /* Alinhamento do texto no centro */
+}
+
+/* Como é executado depois, ele prevalecerá
+.menu { 
+    background-color: green;
+} */
+
+/* mais específico que o seletor 
+div.menu { 
+    width: 450px;
+} */
+
+.menu > a { 
+    color: red;
+    border-right: 5px solid red;
+    font-size: 20px;
+    margin: 0 10px;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.tipo1 {
+    color: gray;
+}
+
+.link_ {
+    font-size: 30px;
+}
+
+.tipo2 { /* Prevalece a que estiver mais abaixo na estruturação do CSS */
+    font-size: 45px;
+}
+
+/* A ordem importa se o nível de especificação for o mesmo */

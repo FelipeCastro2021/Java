@@ -1,0 +1,52 @@
+* {
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ocupar toda a tela e permitir que os filhos herdem isso */
+}
+
+.artigo {
+    width: 100%;
+    max-width: 1200px; /* A partir de 1200px não irá mais crescer */
+    min-width: 500px; /* A partir de 500px não irá mais diminuir */
+    height: 50%;
+    background-color: #d8d8d8;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.artigo > h1 {
+    margin-bottom: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.artigo > p {
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+
+}
+
+.alturaMetade {
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.alturaMetade > h1 {
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+}

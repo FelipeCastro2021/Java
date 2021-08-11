@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teste {
+    width: 700px;
+    margin: 10px auto;
+    background-color: #d8d8d8;
+    text-align: center;
+    padding: 10px;
+}
+
+.teste h1 {
+    font-size: 25px;
+    font-weight: normal;
+    color: red;
+    font-style: italic;
+}
+
+.teste p {
+    margin-top: 15px;
+    text-align: justify;
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: tahoma, sans-serif;
+}

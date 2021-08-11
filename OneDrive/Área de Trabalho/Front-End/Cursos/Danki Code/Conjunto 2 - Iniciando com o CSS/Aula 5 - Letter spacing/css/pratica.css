@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 500px;
+    margin: 15px auto;
+    background-color: #efefef;
+    text-align: center;
+    padding: 15px;
+}
+
+div > h1 {
+    letter-spacing: 8px;
+    margin: 15px 0;
+}
+
+div > p {
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: 1.3px;
+}

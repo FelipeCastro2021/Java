@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para o conteúdo do nosso site */
+
+.artigo {
+    width: 800px;
+    margin: 40px auto; /* O bloco ficará centralizado na página */
+    text-align: center; /* Texto ficará centralizado */
+    background-color: rgb(200,200,200);
+    padding: 40px;
+}
+
+.artigo h1 {
+    color: #069;
+    font-size: 23px; /* Também é recomendável trabalhar com px */
+    /* Equivalente a 100% do tamanho padrão */
+    font-family: "Times New Roman", Times, sans-serif; /* Fall back */
+    font-style: italic;
+    font-weight: normal;
+}
+
+.artigo p {
+    color: #fafafa;
+    font-family: tahoma;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 30px; /* Espaço entre as linhas */
+    text-align: left;
+    /* 
+    background-color: rgb(200,200,200);
+    background-color: #d8d8d8;
+    background-color: lightgray; */
+}

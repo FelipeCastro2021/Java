@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+}
+
+#div1 > h1 {
+    color: white;
+}
+
+.div2 > h1 {
+    color: green;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%; /* Usar 100% da tela de exibição */
+}
+
+.artigo {
+    background-color: #d8d8d8;
+    width: 100%; /* Ocupará 100% do bloco pai */ /* Usar min e max quando for usar a %  */
+    min-width: 800px;
+    max-width: 1280px;
+    height: auto; /* Altura é automática, ou seja, se adequa ao tamanho do conteúdo */
+    text-align: center;
+}
+
+.artigo > h1 {
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #f00;
+    line-height: 35px;
+}
+
+.artigo > p {
+    text-align: justify;
+    margin-top: 25px;
+    line-height: 22px;
+    font-family: lato;
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    font-size: 1rem;
+}
