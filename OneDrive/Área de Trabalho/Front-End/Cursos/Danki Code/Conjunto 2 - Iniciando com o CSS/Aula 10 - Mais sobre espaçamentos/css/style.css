@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* !box-sizing: border-box;  // Não cresce o box-sizing  */
+
+html, body {
+    height: 100%;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.artigo {
+    margin: 15px 80px; /* Expandindo faz com que crie-se espaços no bloco pai */
+}
