@@ -10,3 +10,20 @@
 html, body {
     height: 100%;
 }
+
+.header {
+    min-width: 1280px; /* Largura mínima desse bloco */
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.article {
+    margin: 0 auto;
+    width: 1200px;
+    height: 200%;
+    max-height: 8%;
+    min-height: 50%; /* min-height tem prioridade */
+    background-color: red;
+}
+/* Criará uma scroll bar */
