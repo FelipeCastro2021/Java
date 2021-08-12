@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.pai {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.639);
+    position: fixed;
+}
+
+.filho {
+    width: 80%;
+    min-width: 450px;
+}
+
+.pai .filho ul {
+    float: right;
+}
+
+.pai .filho ul li{
+    display: inline-block;
+    margin: 15px;
+    font-family: "Poppins", monospace;
+}
+
+.pai .filho a {
+    color: white;
+    height: 100%;
+    display: inline-block;
+}
+
+.pai .filho ul li a {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tio {
+    clear: both;
+    height: 100%;
+    background-color: blue;
+}
+
+/* Tabela */
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+table tr th, table tr td {
+    border: 1px solid black;
+    padding: 5px;
+    height: 40px;
+    vertical-align: bottom;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+html, body {
+    height: 100%;
+}
+
+.avo {
+    color: red;
+}
+
+.pai .filho {
+    color: initial;
+}
+
+.filho p {
+    width: 80%;
+    height: 50px;
+    background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 600px) {
+    .filho p {
+        height: auto;
+    }
+}
